@@ -1,0 +1,24 @@
+header section {
+   position: relative;
+   height: 60vh;
+   background: rgba(0, 0, 0, .5);
+}
+
+header section::after {
+   content: "";
+   position: absolute;
+   background: center/cover url('img/surfing.jpg');
+   top: 0;
+   right: 0;
+   bottom: 0;
+   left: 0;
+   z-index: -1;
+}
+
+header section p {
+   letter-spacing: 1px;
+}
+
+i {
+   font-size: 80px;
+}
