@@ -15,6 +15,11 @@ header section::after {
    z-index: -1;
 }
 
+header i {
+   font-size: 20px;
+   color: greenyellow;
+}
+
 header section p {
    letter-spacing: 1px;
 }
